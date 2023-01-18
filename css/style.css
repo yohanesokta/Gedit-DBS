@@ -1,0 +1,156 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.con{
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+body{
+	background-color: #EBEBEB;
+}
+.side-bar{
+	width: 15%;
+	height: 100vh;
+}
+.Bside-bar{
+	width: 15%;
+	height: 100vh;
+	position: fixed;
+}
+.isi{
+	margin-left: 1%;
+	box-shadow: -2px 2px 5px #949494;
+	background-color: white;
+	width: 84%;
+	border-radius: 0 0 0 5px;
+	height: 97vh;
+}
+.lg-menu{
+	display: flex;
+	width: 100%;
+	height: 100px;
+}
+.lg-menu h1{
+	text-align: center;
+	margin: auto;
+	font-family: 'Roboto',sans-serif;
+}
+.l-menu{
+	cursor: pointer;
+}
+.l-menu ul li{
+	list-style: none;
+	margin: 40px 10px 0px 20px;
+}
+.l-menu ul li span{
+	margin-left: 10px;
+}
+.active{
+	color: blue;
+	background-color: #D9D9D9;
+	padding: 20px;
+}
+.f-soft{
+	width: 100%;
+	height: 100%;
+}
+.nav-fsoft{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	box-shadow: 0 2px 5px gray;
+}
+.nav-fsoft p{
+	width: 20%;
+	border-right: 1px solid gray;
+	text-align: center;
+	margin: auto 0;
+	font-family: sans-serif,arial;
+}
+.fsoft-list{
+	
+	overflow-y: scroll;
+	width: 100%;
+	height: 90%;
+}
+.fsoft-isi{
+	display: flex;
+	width:100%;
+	overflow-y: hidden;
+	padding: 10px 0;
+	height: 50px;
+	margin:20px 0;
+	cursor: pointer;
+}
+.fsoft-isi p{
+	margin: auto 0;
+	width: 20%;
+	text-align: center;
+	overflow-y: hidden;
+	font-family: sans-serif,arial;
+	border-right: 1px solid gray;
+	cursor: pointer;
+}
+.fsoft-isi:hover{
+	background-color: #F2F2F2;
+}
+.fsoft-modul{
+	position: fixed;
+	display: none;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(255, 255, 255, .7);
+}
+.fsoft-m-canvas{
+	overflow: hidden;
+	width: 80%;
+	height: 80%;
+	margin: auto;
+	position: relative;
+	margin-top: 40px;
+	border-radius: 5px;
+	box-shadow:2px 2px 5px gray;
+	background-color: white;
+}
+.fsoft-m-canvas i{
+	position: absolute;
+	font-size: 30px;
+	right: 0;
+	border-radius: 0 5px 0 5px;
+	padding: 5px 10px;
+	color: white;
+	z-index: 10;
+	cursor: pointer;
+	transition: .3s ease;
+	background-color: red;
+}
+.fsoft-m-canvas i:hover{
+	background-color: #FF6B6B;
+}
+#fsoft-form{
+	height: 100%;
+	margin: 10px;
+	overflow-y: scroll;
+	width: 105%;
+}
+#fsoft-form p{
+	margin-top: 10px;
+}
+#fsoft-form input{
+	width: 200px;
+	height: 25px;
+}
+#fsoft-form textarea{
+	width: 400px;
+	height: 50px;
+}
+#fsoft-form button{
+	padding: 10px;
+	margin: 20px 0;
+	width: 200px;
+	margin-bottom: top;
+}
